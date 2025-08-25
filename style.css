@@ -51,7 +51,7 @@ ul {
     height: 36px;
     font-size: 18px;
     margin: 0;
-    padding: 0;
+    padding: 16px;
     font-weight: 100;
 }
 
@@ -66,14 +66,14 @@ ul {
 
 .main {
     display: flex;
-    width: 500px;
     flex-wrap: wrap;
-    height: auto;
+    max-width: 400px;
 }
 
 .main-text {
     display: flex;
     flex-direction: column;
+    max-width: 400px;
 }
 
 .main-image img {
@@ -148,6 +148,7 @@ ul {
     display: flex;
     flex-direction: column;
     padding: 100px;
+    justify-content: center;
 }
 
 .quote em {
