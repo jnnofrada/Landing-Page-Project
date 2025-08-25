@@ -71,11 +71,12 @@ ul {
     height: auto;
 }
 
-.main.text {
-    
+.main-text {
+    display: flex;
+    flex-direction: column;
 }
 
-.main img {
+.main-image img {
     display: flex;
     flex: 1;
     max-width: 400px;
@@ -95,10 +96,11 @@ ul {
     font-weight: 100;
 }
 
-.main button {
+.main-text button {
     background-color: #3882F6;
     color: #E5E7EB;
-    padding: 8px 32px;
+    height: 50px;
+    width: 100px;
     border-radius: 15px;
 }
 
